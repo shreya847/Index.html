@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreya Pandey's Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black; /* Black theme */
+            color: lightpink; /* Light pink text */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: #1a1a1a; /* Dark gray background for sections */
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            color: lightpink; /* Light pink header */
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header h2 {
+            color: white;
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        .highlight {
+            color: lightpink;
+            font-weight: bold;
+        }
+
+        .intro {
+            font-size: 1.2rem;
+            color: #f5c2d0; /* Softer pink for intro */
+        }
+
+        /* Sections */
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            color: lightpink;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        section p, ul {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: white; /* White text for content */
+        }
+
+        ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+
+        blockquote {
+            font-size: 1.2rem;
+            font-style: italic;
+            color: #f5c2d0;
+            border-left: 4px solid lightpink;
+            padding-left: 10px;
+            margin: 20px 0;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #1a1a1a;
+            color: lightpink;
+            border-radius: 0 0 10px 10px;
+            font-size: 0.9rem;
+        }
+
+        /* Animation: Person Coding */
+        .animation {
+            position: relative;
+            width: 100px;
+            height: 120px;
+            margin: 20px auto;
+        }
+
+        .person {
+            position: absolute;
+            width: 40px;
+            height: 60px;
+            background: lightpink;
+            border-radius: 50%;
+            top: 0;
+            left: 30px;
+            animation: bounce 2s infinite;
+        }
+
+        .laptop {
+            position: absolute;
+            width: 60px;
+            height: 20px;
+            background: gray;
+            top: 70px;
+            left: 20px;
+            border-radius: 3px;
+        }
+
+        /* Keyframe Animations */
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to My Portfolio</h1>
+            <h2>Hi, I'm <span class="highlight">Shreya Pandey</span></h2>
+            <p class="intro">A first-year student at GCET from the EE branch, currently learning DSA in Java.</p>
+        </header>
+        <div class="animation">
+            <div class="person"></div>
+            <div class="laptop"></div>
+        </div>
+        <section class="about">
+            <h2>About Me</h2>
+            <p>I am a student who keeps learning no matter what. I have this never-ending passion to explore and learn always.</p>
+            <p>I focus on what I can learn rather than what I already know. This reflects my learning and growth mindset over a judgmental mindset.</p>
+        </section>
+        <section class="goals">
+            <h2>My Goals for 2025</h2>
+            <ul>
+                <li>Get into the Google WE Scholar program at any cost to gain an extra edge and outshine others.</li>
+                <li>Guide my juniors if I get selected for the program.</li>
+                <li>Become financially independent.</li>
+            </ul>
+        </section>
+        <section class="quote">
+            <h2>My Belief</h2>
+            <blockquote>
+                "Learning from your failures and still growing is what defines success for me."
+            </blockquote>
+        </section>
+        <section class="fearless">
+            <h2>What Makes Me Unique</h2>
+            <p>I am the kind of girl who never fears failure; instead, I see it as an opportunity to enhance my growth.</p>
+        </section>
+        <footer>
+            <p>© 2024 Shreya Pandey | Always Learning, Always Growing</p>
+        </footer>
+    </div>
+</body>
+</html>
